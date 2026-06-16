@@ -1,0 +1,64 @@
+$date
+     Jun 05, 2026       10:27:34
+$end
+
+$version
+ SystemC 2.3.4-Accellera --- Apr 15 2026 14:41:59
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$scope module i2c0sdaOutToi2c1sdaIn $end
+$var wire    1  aaaaa  start       $end
+$var wire   32  aaaab  address [31:0]  $end
+$var wire   32  aaaac  addr7OrAddr10 [31:0]  $end
+$var wire   32  aaaad  readOrWrite [31:0]  $end
+$var wire   32  aaaae  ackOrNack [31:0]  $end
+$var wire   32  aaaaf  ackCount [31:0]  $end
+$var wire    1  aaaag  repeatedStart       $end
+$var wire   32  aaaah  data [31:0]  $end
+$var wire    1  aaaai  stop       $end
+$upscope $end
+$scope module i2c1sdaOutToi2c0sdaIn $end
+$var wire    1  aaaaj  start       $end
+$var wire   32  aaaak  address [31:0]  $end
+$var wire   32  aaaal  addr7OrAddr10 [31:0]  $end
+$var wire   32  aaaam  readOrWrite [31:0]  $end
+$var wire   32  aaaan  ackOrNack [31:0]  $end
+$var wire   32  aaaao  ackCount [31:0]  $end
+$var wire    1  aaaap  repeatedStart       $end
+$var wire   32  aaaaq  data [31:0]  $end
+$var wire    1  aaaar  stop       $end
+$upscope $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+b0 aaaab
+b0 aaaac
+b0 aaaad
+b0 aaaae
+b0 aaaaf
+0aaaag
+b0 aaaah
+0aaaai
+0aaaaj
+b0 aaaak
+b0 aaaal
+b0 aaaam
+b0 aaaan
+b0 aaaao
+0aaaap
+b0 aaaaq
+0aaaar
+$end
+
+#10000000
